@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+}
+
+.imagee {
+  width: 100%;
+}
+
+/* Navigation Bar */
+.nav-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* background-color: #111; */
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.nav-bar-list .nav-link {
+  display: block;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.nav-bar-list .nav-link:hover {
+  border: 1px solid #ffffff;
+  border-radius: 45px 45px 45px 45px;
+}
+
+.btn_front {
+  padding: 20px;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+}
+
+.bttn_front {
+  text-decoration: none;
+  color: #0066ee;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  font-weight: bold;
+  padding: 10px 15px 10px 15px;
+  font-size: 20px;
+  border-radius: 45px 45px 45px 45px;
+}
+
+.btn_front:hover {
+  opacity: 0.9;
+}
+
+.nav-logo {
+  position: absolute;
+  top: 2%;
+  left: 1.5%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* Text inside the page */
+.text {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.lite-text {
+  font-size: 18px;
+  color: whitesmoke;
+  opacity: 0.6;
+}
+
+.strong-text {
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+/* .btn{
+    position: absolute;
+    top: 40%;
+    left: 10%; 
+}
+.bttn{
+    padding: 10px;
+    background-color: royalblue;  
+}
+
+.bttn a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+} */
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-height: 800px) {
+  /* Text inside the page */
+  .text {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+  }
+  .lite-text {
+    font-size: 30px;
+    color: whitesmoke;
+    opacity: 0.6;
+  }
+
+  .strong-text {
+    font-size: 32px;
+    color: whitesmoke;
+  }
+  .btn {
+    position: absolute;
+    top: 58%;
+    left: 20%;
+  }
+}

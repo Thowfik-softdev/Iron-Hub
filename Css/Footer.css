@@ -1,0 +1,90 @@
+footer {
+  background-color: #151824;
+  color: #ffffff;
+  padding: 40px;
+}
+
+.combine {
+  display: flex;
+  justify-content: center;
+}
+/* foooter Contact */
+.footer_contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 22px;
+  padding: 20px;
+}
+
+/* Logo */
+.logo_details {
+  width: 500px;
+}
+.logo_details_a {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer_logo {
+  border-radius: 50%;
+}
+.footer_lite_text {
+  opacity: 0.8;
+  line-height: 30px;
+}
+
+/* Apple and playstore img */
+.img {
+  padding-top: 25px;
+  list-style-type: none;
+  line-height: 20px;
+}
+.footer_img {
+  width: 150px;
+  border-radius: 8px;
+}
+
+/* useful and quick links */
+.links {
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+}
+.footer_lst {
+  margin: 1%;
+  list-style-type: none;
+}
+.footer_lst_typ {
+  width: 200px;
+  line-height: 30px;
+}
+
+.footer_heading {
+  border-bottom: 3px solid #0066ee;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer_link:hover {
+  text-decoration: none;
+  color: #0066ee;
+  border-bottom: 2px solid #0066ee;
+}
+/* copyright */
+.footer_small_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.footer_small_text a {
+  color: #0066ee;
+}
